@@ -25,7 +25,8 @@ SECRET_KEY = '6cyj2bylz_+wxy)t=%y=1dh^y#24wo!d8@0-klom@r9c075t83'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [os.environ.get("C9_HOSTNAME"), '8000-cb0f797e-edf4-466b-9f33-0546d8fd0874.ws-eu01.gitpod.io']
+
 
 
 # Application definition
